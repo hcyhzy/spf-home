@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <title><%= DATA.title %></title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="<%= DATA.description %>" />
+    <link
+      rel="stylesheet"
+      href="https://image.idealclover.cn/projects/Easy-to-Download/weui.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://image.idealclover.cn/projects/Easy-to-Download/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://image.idealclover.cn/projects/Easy-to-Download/swiper-bundle.min.css"
+    />
+    <!-- <link rel="stylesheet" href="statics/index.css" /> -->
+    <link rel="stylesheet" href="statics/index.css" />
+    <style>
+      .web-download-android:hover {
+        content: url("statics/android_hover.png");
+      }
+
+      .web-download-iphone:hover {
+        content: url("statics/iphone_hover.png");
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RP7NWBCL10"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-RP7NWBCL10");
+    </script>
+  </head>
+  <body
+    data-uid="0"
+    data-request-app="Web"
+    data-request-hash="6cfb0f4aqxbss9"
+    style="margin: 0;;background-color: #f7f7f7;"
+  >
+    <div id="main">
+      <div id="header" style="padding: 20px 0;" googl="true">
+        <div class="main" style="width: 100%;">
+          <a href="/">
+            <span
+              id="header-logo"
+              style="display: flex;justify-content: left;align-items: center;"
+            >
+              <img
+                style="height: 48px;margin-left: 100px;"
+                src="<%= DATA.logo %>"
+                alt=""
+              />
+              <span><%= DATA.title %></span>
+            </span>
+          </a>
+          <a id="header-developer" class="share">
+            <span style="font-size: 16px;">Share App</span>
+          </a>
+        </div>
+      </div>
+      <div id="content">
+        <div id="first_screen">
+          <div id="main-content" googl="true">
+            <div class="text-group">
+              <div class="weui-flex logo-box">
+                <div class="weui-flex__item">
+                  <img
+                    class="logo"
+                    src="<%= DATA.logo %>"
+                    alt="<%= DATA.title %>"
+                  />
+                </div>
+              </div>
+              <div class="weui-flex">
+                <div class="weui-flex__item">
+                  <p class="title"><%= DATA.title %></p>
+                  <p class="sub-title mobile-display">
+                    <%= DATA.detail %>
+                  </p>
+                  <p class="sub-title pc-display">
+                    <%= DATA.detail %>
+                  </p>
+                </div>
+              </div>
+              <div class="download-group">
+                <div>
+                  <figure class="image">
+                    <img src="" class="insert-qrcode" alt="Scan Download APP" />
+                  </figure>
+                  <p style="font-size: 13px;align-self: center;">
+                    Scan Download APP
+                  </p>
+                </div>
+
+                <div
+                  class="web-download-box"
+                  style="background-color: transparent;justify-content: space-around;height: 154px;padding: 0;margin-left: 15px;"
+                >
+                  <a
+                    class="web-download-android"
+                    href="<%= DATA.Android %>"
+                    target="_blank"
+                    style="height: 60px;"
+                  >
+                    <img
+                      class="web-download-"
+                      src="statics/android_normal.png"
+                      alt="Download Android"
+                      style="height: 60px;"
+                    />
+                  </a>
+                  <!-- <a
+                    class="web-download-iphone"
+                    href="<%= DATA.iOS %>"
+                    target="_blank"
+                    style="height: 60px;"
+                  >
+                    <img
+                      src="statics/iphone_normal.png"
+                      alt="Download IOS"
+                      style="height: 60px;"
+                    />
+                  </a> -->
+                </div>
+              </div>
+              <div id="mobile-download-box" class="weui-flex">
+                <div class="weui-flex__item">
+                  <div class="mobile-download-button-box">
+                    <a
+                      href=""
+                      class="download-link"
+                      data-ios="<%= DATA.iOS %>"
+                      data-android="<%= DATA.Android %>"
+                    >
+                      <img
+                        src="https://image.idealclover.cn/projects/Easy-to-Download/download_now.png"
+                        alt="立即下载"
+                      />
+                    </a>
+                    <button
+                      style="background: transparent;border: 0;"
+                      class="share"
+                    >
+                      <span style="font-size: 16px;color:#888;"
+                        >分享此应用</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="weui-flex image-group">
+              <div class="weui-flex__item large-image-box">
+                <div
+                  class="swiper-container swiper-container-initialized swiper-container-horizontal"
+                >
+                  <div
+                    class="swiper-wrapper"
+                    style="transition-duration: 0ms; transform: translate3d(-2250px, 0px, 0px);"
+                    id="swiper-wrapper-28813a616f10a43ca"
+                    aria-live="off"
+                  >
+                    <div class="swiper-slide swiper-slide-prev" role="group">
+                      <img
+                        class="large-image"
+                        src="statics/banner1.jpeg"
+                        alt="home"
+                      />
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" role="group">
+                      <img
+                        class="large-image"
+                        src="statics/banner2.jpeg"
+                        alt="select app"
+                      />
+                    </div>
+                    <!-- <div class="swiper-slide swiper-slide-next" role="group">
+                      <img
+                        class="large-image"
+                        src="statics/banner3.jpeg"
+                        alt="select region"
+                      />
+                    </div> -->
+                  </div>
+                  <!-- 如果需要分页器 -->
+                  <div class="swiper-pagination swiper-pagination-bullets">
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span
+                      class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                    >
+                    </span>
+                  </div>
+                  <span
+                    class="swiper-notification"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                  >
+                  </span>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <div id="footer" styld="z-index: 10;">
+        ©2022
+      </div>
+      <div style="display: none;">
+        <img
+          src="https://image.idealclover.cn/projects/Easy-to-Download/android_hover.png"
+          alt="立即下载"
+        />
+        <img
+          src="https://image.idealclover.cn/projects/Easy-to-Download/iphone_hover.png"
+          alt="立即下载"
+        />
+      </div>
+    </div>
+  
+    <section class="wechat-tips">
+      <!-- 内容为背景图 -->
+    </section>
+    <script src="https://image.idealclover.cn/projects/Easy-to-Download/weui.min.js"></script>
+    <script src="https://image.idealclover.cn/projects/Easy-to-Download/swiper-bundle.min.js"></script>
+    <script src="https://image.idealclover.cn/projects/Easy-to-Download/clipboard.min.js"></script>
+    <script>
+      var clipboard = new ClipboardJS(".share", {
+        text: function() {
+          return "<%= DATA.share %>";
+        },
+      });
+
+      clipboard.on("success", function(e) {
+        weui.toast("The link has been copied, please share it with your friends!", 3000);
+      });
+
+      var mySwiper = new Swiper(".swiper-container", {
+        direction: "horizontal", // 垂直切换选项
+        loop: true, // 循环模式选项
+        autoplay: {
+          delay: 4000, //1秒切换一次
+        },
+        // 如果需要分页器
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
