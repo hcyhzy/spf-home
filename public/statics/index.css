@@ -1,4 +1,4 @@
-/* 通用设置 */
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -29,8 +29,7 @@ p {
 }
 
 #main {
-  /* background-image: url("https://spfvpn.com/statics/bg5.jpg"); */
-  background-image: url("http://localhost:4000/statics/bg6.png");
+  background-image: url("https://spfvpn.com/statics/bg5.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -179,12 +178,6 @@ p {
   font-size: 13px;
 }
 
-.page-download {
-  background-image: url("/static/web/v8/images/bg_v10.png");
-  padding-bottom: 40px;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
 
 #mobile-download-box {
   margin-top: 30px;
@@ -423,7 +416,7 @@ p {
   }
 
   #main-content {
-    width: 1500px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -445,7 +438,7 @@ p {
 
   #first_screen .text-group {
     align-self: center;
-    margin-left: 200px;
+    margin-right: 40px;
   }
 
   #first_screen .logo-box {

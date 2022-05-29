@@ -1,9 +1,9 @@
 {
   "title":"SPF VPN",
-  "description": "secure··fast",
-  "detail": "",
+  "description": "Safe Private Fast",
+  "detail": "Safe Private Fast",
   "logo": "",
-  "iOS": "",
-  "Android": "",
+  "iOS": "https://spfvpn.com",
+  "Android": "https://play.google.com/store/apps/details?id=com.spf.privatetunel",
   "share": "https://spfvpn.com"
 }

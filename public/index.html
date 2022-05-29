@@ -22,22 +22,21 @@
       rel="stylesheet"
       href="https://image.idealclover.cn/projects/Easy-to-Download/swiper-bundle.min.css"
     />
-    <!-- <link rel="stylesheet" href="statics/index.css" /> -->
     <link rel="stylesheet" href="statics/index.css" />
     <style>
       .web-download-android:hover {
-        content: url("statics/android_hover.png");
+        content: url("https://spfvpn.com/statics/android_hover.png");
       }
 
       .web-download-iphone:hover {
-        content: url("statics/iphone_hover.png");
+        content: url("https://spfvpn.com/statics/iphone_hover.png");
       }
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
+    <!-- Global site tag (gtag.js) - Google Analytics todo -->
+    <!-- <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-RP7NWBCL10"
-    ></script>
+      src="https://www..googletagmanagercom/gtag/js?id=G-RP7NWBCL10"
+    ></script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -55,17 +54,17 @@
   >
     <div id="main">
       <div id="header" style="padding: 20px 0;" googl="true">
-        <div class="main" style="width: 100%;">
+        <div class="main" style="width: 1000px;">
           <a href="/">
             <span
               id="header-logo"
               style="display: flex;justify-content: left;align-items: center;"
             >
-              <img
-                style="height: 48px;margin-left: 100px;"
+              <!-- <img
+                style="height: 48px;margin-right: 10px;"
                 src="<%= DATA.logo %>"
                 alt=""
-              />
+              /> -->
               <span><%= DATA.title %></span>
             </span>
           </a>
@@ -80,18 +79,18 @@
             <div class="text-group">
               <div class="weui-flex logo-box">
                 <div class="weui-flex__item">
-                  <img
+                  <!-- <img
                     class="logo"
                     src="<%= DATA.logo %>"
                     alt="<%= DATA.title %>"
-                  />
+                  /> -->
                 </div>
               </div>
               <div class="weui-flex">
                 <div class="weui-flex__item">
-                  <p class="title"><%= DATA.title %></p>
+                  <!-- <p class="title"><%= DATA.title %></p> -->
                   <p class="sub-title mobile-display">
-                    <%= DATA.detail %>
+                    <%= DATA.title %>
                   </p>
                   <p class="sub-title pc-display">
                     <%= DATA.detail %>
@@ -101,10 +100,10 @@
               <div class="download-group">
                 <div>
                   <figure class="image">
-                    <img src="" class="insert-qrcode" alt="Scan Download APP" />
+                    <img src="statics/image_qr.png" alt="GooglePlay Download SPF App" />
                   </figure>
                   <p style="font-size: 13px;align-self: center;">
-                    Scan Download APP
+                    GooglePlay App
                   </p>
                 </div>
 
@@ -120,23 +119,23 @@
                   >
                     <img
                       class="web-download-"
-                      src="statics/android_normal.png"
-                      alt="Download Android"
+                      src="https://spfvpn.com/statics/android_normal.png"
+                      alt="GooglePlay App"
                       style="height: 60px;"
                     />
                   </a>
-                  <!-- <a
+                  <a
                     class="web-download-iphone"
                     href="<%= DATA.iOS %>"
                     target="_blank"
                     style="height: 60px;"
                   >
                     <img
-                      src="statics/iphone_normal.png"
-                      alt="Download IOS"
+                      src="https://spfvpn.com/statics/iphone_normal.png"
+                      alt="AppleStore App"
                       style="height: 60px;"
                     />
-                  </a> -->
+                  </a>
                 </div>
               </div>
               <div id="mobile-download-box" class="weui-flex">
@@ -149,8 +148,8 @@
                       data-android="<%= DATA.Android %>"
                     >
                       <img
-                        src="https://image.idealclover.cn/projects/Easy-to-Download/download_now.png"
-                        alt="立即下载"
+                        src="https://spfvpn.com/statics/download_now.png"
+                        alt="Download App"
                       />
                     </a>
                     <button
@@ -158,13 +157,13 @@
                       class="share"
                     >
                       <span style="font-size: 16px;color:#888;"
-                        >分享此应用</span
+                        >Share App</span
                       >
                     </button>
                   </div>
                 </div>
               </div>
-              
+          
             </div>
             <div class="weui-flex image-group">
               <div class="weui-flex__item large-image-box">
@@ -180,26 +179,25 @@
                     <div class="swiper-slide swiper-slide-prev" role="group">
                       <img
                         class="large-image"
-                        src="statics/banner1.jpeg"
-                        alt="home"
+                        src="https://spfvpn.com/statics/ss_1.png"
+                        alt=""
                       />
                     </div>
                     <div class="swiper-slide swiper-slide-active" role="group">
                       <img
                         class="large-image"
-                        src="statics/banner2.jpeg"
-                        alt="select app"
+                        src="https://spfvpn.com/statics/ss_2.png"
+                        alt=""
                       />
                     </div>
-                    <!-- <div class="swiper-slide swiper-slide-next" role="group">
+                    <div class="swiper-slide swiper-slide-next" role="group">
                       <img
                         class="large-image"
-                        src="statics/banner3.jpeg"
-                        alt="select region"
+                        src="https://spfvpn.com/statics/ss_3.png"
+                        alt=""
                       />
-                    </div> -->
+                    </div>
                   </div>
-                  <!-- 如果需要分页器 -->
                   <div class="swiper-pagination swiper-pagination-bullets">
                     <span class="swiper-pagination-bullet"></span>
                     <span class="swiper-pagination-bullet"></span>
@@ -219,27 +217,53 @@
                 </div>
               </div>
             </div>
-          
+        
           </div>
         </div>
       </div>
       <div id="footer" styld="z-index: 10;">
-        ©2022
+        ©2022 <a href="https://spfvpn.com" target="_blank">SPF VPN</a>
       </div>
       <div style="display: none;">
         <img
           src="https://image.idealclover.cn/projects/Easy-to-Download/android_hover.png"
-          alt="立即下载"
+          alt="Download App"
         />
         <img
           src="https://image.idealclover.cn/projects/Easy-to-Download/iphone_hover.png"
-          alt="立即下载"
+          alt="Download App"
         />
       </div>
     </div>
-  
+    
+        <style>
+      .github-corner:hover .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+      }
+      @keyframes octocat-wave {
+        0%,
+        100% {
+          transform: rotate(0);
+        }
+        20%,
+        60% {
+          transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+          transform: rotate(10deg);
+        }
+      }
+      @media (max-width: 500px) {
+        .github-corner:hover .octo-arm {
+          animation: none;
+        }
+        .github-corner .octo-arm {
+          animation: octocat-wave 560ms ease-in-out;
+        }
+      }
+    </style>
     <section class="wechat-tips">
-      <!-- 内容为背景图 -->
     </section>
     <script src="https://image.idealclover.cn/projects/Easy-to-Download/weui.min.js"></script>
     <script src="https://image.idealclover.cn/projects/Easy-to-Download/swiper-bundle.min.js"></script>
@@ -256,12 +280,11 @@
       });
 
       var mySwiper = new Swiper(".swiper-container", {
-        direction: "horizontal", // 垂直切换选项
-        loop: true, // 循环模式选项
+        direction: "horizontal", 
+        loop: true, 
         autoplay: {
-          delay: 4000, //1秒切换一次
+          delay: 4000, 
         },
-        // 如果需要分页器
         pagination: {
           el: ".swiper-pagination",
         },
